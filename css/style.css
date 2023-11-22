@@ -1,0 +1,200 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800&family=Open+Sans:wght@300;400;500;600;700;800&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  outline: none;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+  font-family: "Open Sans", sans-serif;
+}
+:root {
+  --sky-blue: #0094d8;
+  --navy-blue: #003043;
+  --green: #8cb63c;
+  --pink: #e03288;
+}
+ul {
+  padding-left: 0;
+  margin-bottom: 0;
+}
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.btn-outline {
+  border-radius: 20px;
+  border: 1px solid var(--sky-blue);
+  font-size: 16px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 7px 15px 8px;
+  min-width: 120px;
+  font-weight: 500;
+  transition: all linear 0.1s;
+}
+.btn-outline:hover {
+  background-color: var(--sky-blue);
+  color: white;
+}
+.btn-outline.text-uppercase {
+  font-size: 14px;
+}
+.menu li a {
+  padding: 10px 15px;
+  font-weight: 500;
+}
+.menu li a:hover {
+  color: var(--sky-blue);
+}
+.menu li:first-child a {
+  padding-left: 0;
+}
+.menu li:last-child a {
+  padding-right: 0;
+}
+.menu li .icons .icon {
+  font-size: 22px;
+  color: var(--navy-blue);
+}
+.menu li .icons a {
+  padding: 0 !important;
+}
+
+section {
+  padding: 80px 0;
+}
+.banner {
+  background-color: var(--sky-blue);
+}
+.banner h1 {
+  font-weight: 700;
+  font-size: 35px;
+}
+.section-image-bg-hero {
+  background: url("https://go.travelctm.com/rs/618-PPK-893/images/ctr28393_lp_2020_bg_2.jpg")
+    no-repeat;
+  background-size: cover;
+}
+.text-xl {
+  font-size: 50px;
+}
+.text-xl {
+  font-size: 40px;
+}
+.text-bold {
+  font-weight: 600;
+}
+.section-card{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 auto;
+  }
+  .section-card h2 {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 10px;
+  }
+  
+  .section-card p {
+    font-size: 14px;
+    line-height: 1.5;
+    color: #777;
+  }
+  
+  .section-card a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-top: 10px;
+  }
+
+
+
+
+
+
+
+
+  
+
+
+
+
+  .testimonial{
+    background: var(--sky-blue);
+  }
+  #owl-demo .item{
+    padding: 30px 0px;
+    margin: 10px;
+    color: #FFF;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    text-align: center;
+  }
+  .testimonial .owl-nav{
+    position: absolute;
+    top: 50%;
+    left: 0; right: 0;
+    transform: translateY(-50%);
+    display: flex;
+    justify-content: space-between;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  .owl-nav button:hover{
+      background-color: transparent !important;
+  }
+  .owl-nav button{
+    color: white !important;
+}
+.owl-nav button span{
+  font-size: 50px;
+}
+
+  /* to remove slide effect  css */
+   .animated  {
+        -webkit-animation-duration : 0 ms  !important;
+        animation-duration : 0 ms  !important;
+        -webkit-animation-fill-mode : both  !important;
+        animation-fill-mode : both  !important;
+      }  
+      
+      
+      .fadeOut  {
+        -webkit-animation-name : fadeOut  ;
+        animation-name : fadeOut  ;
+      }  
+      @-webkit-keyframes  fadeOut  {
+        0% {
+          opacity : 0   ;
+        }  
+        100% {
+          opacity : 0   ;
+        }  
+      }
+      @keyframes  fadeOut  {
+        0% {
+          opacity : 0   ;
+        }  
+        100% {
+          opacity : 0   ;
+        }  
+      }
+
+      #owl-image .owl-nav{
+        position: absolute;
+        top: 50%;
+        left: 0; right: 0;
+        transform: translateY(-50%);
+        display: flex;
+        justify-content: space-between;
+        margin: 0 auto;
+      }
