@@ -7,6 +7,8 @@ $(document).ready(function () {
     dots: false,
     animateOut: "fadeOut",
     animateIn: "fadeIn",
+    autoplay:true,
+    autoplayTimeout:1000
   });
 
   $("#owl-image").owlCarousel({
@@ -18,4 +20,20 @@ $(document).ready(function () {
     animateOut: "fadeOut",
     animateIn: "fadeIn",
   });
+
+
+
+
+    // JavaScript for toggling sidebar
+    const toggleBtn = document.getElementById('toggleBtn');
+    const closeBtn = document.getElementById('closeBtn');
+    const sidebar = document.getElementById('sidebar');
+  
+    toggleBtn.addEventListener('click', () => {
+      sidebar.style.width = '250px';
+    });
+  
+    closeBtn.addEventListener('click', () => {
+      sidebar.style.width = '0';
+    });
 });
